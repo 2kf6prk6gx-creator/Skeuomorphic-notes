@@ -6,7 +6,7 @@ base_dir=os.path.dirname(os.path.abspath(__file__))
 assets_dir=os.path.join(base_dir,'assets')
 
 try:
-    mydb=msc.connect(host='localhost',user='root',passwd='Vedineethu10',database='project')
+    mydb=msc.connect(host='localhost',user='root',passwd='your password here',database='project')
     mycursor=mydb.cursor()
 except:
     mydb=None
